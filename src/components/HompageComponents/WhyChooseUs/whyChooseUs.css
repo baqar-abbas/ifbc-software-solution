@@ -1,0 +1,93 @@
+.why-choose-us {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b
+  ); /* Smooth Dark Gradient */
+  color: #f8fafc;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.wc-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffd700; /* Gold Accent for Eye-Catching Effect */
+  text-transform: capitalize;
+}
+
+/* Features Container */
+.features-container {
+  width: 100%;
+}
+
+/* Grid Adjustments for Responsiveness */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+/* Feature Cards */
+.feature-card {
+  background: rgba(255, 255, 255, 0.2); /* Brighter box background */
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.feature-card:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(255, 215, 0, 0.4); /* Enhanced Golden Glow */
+}
+
+/* Icon Color */
+.icon {
+  margin-bottom: 1rem;
+  color: #ffd700; /* Gold Accent */
+}
+
+/* Title & Description */
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff; /* Bright white for better contrast */
+}
+
+p {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr; /* Stack the feature boxes on mobile */
+    gap: 1rem;
+  }
+
+  .feature-card {
+    padding: 1.5rem;
+    width: 100%; /* Full width on small screens */
+  }
+}

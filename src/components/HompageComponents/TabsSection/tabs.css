@@ -5,6 +5,13 @@
   background: #f8f9fa;
 }
 
+.tabs-section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
 /* Tabs Container */
 .tabs-container {
   max-width: 800px;
@@ -66,6 +73,11 @@
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
+}
+
+h3.tech,
+h3.choose {
+  color: #222;
 }
 
 /* Responsive */

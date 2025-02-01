@@ -6,6 +6,7 @@ const TabsSection = () => {
 
   return (
     <section className="tabs-section">
+      <h2 className="tabs-section-title">About Us</h2>
       <div className="tabs-container">
         {/* Tabs */}
         <div className="tabs">
@@ -59,7 +60,7 @@ const TabsSection = () => {
                 modern frameworks and best practices to ensure seamless user
                 experiences and high performance.
               </p>
-              <h3>🛠 Technologies We Use:</h3>
+              <h3 className="tech">🛠 Technologies We Use:</h3>
               <ul>
                 <li>💡 Frontend: React, Vue.js, Angular</li>
                 <li>
@@ -80,7 +81,7 @@ const TabsSection = () => {
                 also aligned with business goals. Our agile development process
                 ensures quick iterations and continuous improvements.
               </p>
-              <h3>✅ Why Choose Us?</h3>
+              <h3 className="choose">✅ Why Choose Us?</h3>
               <ul>
                 <li>🚀 Agile & Scalable Solutions</li>
                 <li>🔒 Security-First Approach</li>
