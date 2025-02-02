@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import Header from "./components/Header/Header";
 import WhoWeAre from "./pages/WhoWeAre";
 import OurWork from "./pages/OurWork";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </>
   );
