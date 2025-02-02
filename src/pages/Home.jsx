@@ -2,6 +2,7 @@ import React from "react";
 import Headline from "../components/HompageComponents/Headline/Headline";
 import TabsSection from "../components/HompageComponents/TabsSection/TabsSection";
 import WhyChooseUs from "../components/HompageComponents/WhyChooseUs/WhyChooseUs";
+import OurServices from "../components/HompageComponents/OurServices/OurServices";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <Headline />
       <TabsSection />
       <WhyChooseUs />
-      <h1>This is Home page</h1>
+      <OurServices />
     </div>
   );
 };
