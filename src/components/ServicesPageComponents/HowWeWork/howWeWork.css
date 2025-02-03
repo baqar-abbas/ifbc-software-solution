@@ -1,0 +1,73 @@
+.hww-section {
+  background: #f8fafc;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hww-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hww-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.hww-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.hww-card {
+  background: #e2e8f0;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+.hww-card:hover {
+  background: #cbd5e1;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.hww-icon {
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+.hww-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.hww-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hww-title {
+    font-size: 2rem;
+  }
+  .hww-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .hww-card {
+    padding: 1.5rem;
+  }
+}
