@@ -1,9 +1,12 @@
 import React from "react";
+import HeadlineServices from "../components/ServicesPageComponents/HeadlineServices/HeadlineServices";
+import ServicesOverview from "../components/ServicesPageComponents/ServicesOverview/ServicesOverview";
 
 const Services = () => {
   return (
     <div>
-      <h1>This is Services page</h1>
+      <HeadlineServices />
+      <ServicesOverview />
     </div>
   );
 };

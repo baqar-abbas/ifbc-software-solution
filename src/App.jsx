@@ -6,11 +6,13 @@ import Header from "./components/Header/Header";
 import WhoWeAre from "./pages/WhoWeAre";
 import OurWork from "./pages/OurWork";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <div>
+        <ScrollToTop /> {/* Ensure smooth scroll on route change */}
         <Header />
         <main className="main">
           <Routes>

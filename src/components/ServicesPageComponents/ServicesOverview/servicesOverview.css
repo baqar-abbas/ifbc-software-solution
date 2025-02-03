@@ -1,0 +1,168 @@
+.so-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f8fafc;
+}
+
+.so-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.so-subtitle {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+/* Filter Buttons */
+.so-filters {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; /* Ensures proper wrapping on small screens */
+}
+
+.so-filter-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #e2e8f0;
+  color: #333;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.so-filter-btn:hover {
+  background: #cbd5e1;
+  transform: scale(1.05);
+}
+
+.so-filter-btn.active {
+  background: #3b82f6;
+  color: white;
+}
+
+/* Services Grid */
+.so-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.so-card {
+  background: #e2e8f0;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.so-card:hover {
+  background: #cbd5e1;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.so-icon {
+  font-size: 3rem;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+}
+
+.so-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.so-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* CTA Section */
+.so-cta {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #3b82f6;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.so-cta h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.so-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.so-cta-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.so-cta-btn:hover {
+  background: #e2e8f0;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .so-title {
+    font-size: 2rem;
+  }
+
+  .so-filters {
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .so-filter-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .so-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .so-card {
+    padding: 1.5rem;
+  }
+
+  .so-cta {
+    padding: 1.5rem;
+  }
+
+  .so-cta h3 {
+    font-size: 1.5rem;
+  }
+
+  .so-cta p {
+    font-size: 1rem;
+  }
+
+  .so-cta-btn {
+    padding: 0.5rem 1rem;
+  }
+}
