@@ -1,0 +1,83 @@
+.testimonials-section {
+  background: #f3f4f6;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonials-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 1rem; /* Ensuring spacing between slides */
+  min-height: 250px; /* Prevent text from cutting off */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.testimonial-feedback {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  font-style: italic;
+  padding: 0 1rem; /* Add padding to avoid text cut-off */
+}
+
+.testimonial-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.testimonial-role {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Adjusting carousel settings for multi-slide view */
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  color: #3b82f6 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #2563eb !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .testimonials-container {
+    max-width: 90%;
+  }
+
+  .testimonial-card {
+    padding: 1.5rem;
+    min-height: 300px;
+  }
+}
