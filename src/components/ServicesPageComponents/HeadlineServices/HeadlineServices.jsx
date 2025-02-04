@@ -15,7 +15,7 @@ const HeadlineServices = () => {
           Empowering Businesses with Cutting-Edge Solutions
         </h1>
         <p className="headline-subtext">
-          At IFBC Smart Tech, we deliver innovative and scalable software
+          At IFBC Info Tech, we deliver innovative and scalable software
           solutions tailored to your business needs.
         </p>
         <motion.a

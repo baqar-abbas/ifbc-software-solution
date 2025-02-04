@@ -36,11 +36,11 @@ const TabsSection = () => {
             <div className="content">
               <h2>Overview</h2>
               <p>
-                IFBC Smart Tech specializes in delivering high-quality,
-                scalable, and innovative software solutions to help businesses
-                grow in the digital era. Whether you're a startup looking for an
-                MVP or an enterprise in need of a robust platform, we provide
-                tailored solutions to fit your needs.
+                IFBC Info Tech specializes in delivering high-quality, scalable,
+                and innovative software solutions to help businesses grow in the
+                digital era. Whether you're a startup looking for an MVP or an
+                enterprise in need of a robust platform, we provide tailored
+                solutions to fit your needs.
               </p>
               <ul>
                 <li>🔹 Custom Software Development</li>
@@ -76,7 +76,7 @@ const TabsSection = () => {
             <div className="content">
               <h2>More Info</h2>
               <p>
-                At IFBC Smart Tech, we believe in a client-first approach,
+                At IFBC Info Tech, we believe in a client-first approach,
                 ensuring that every solution we build is not only innovative but
                 also aligned with business goals. Our agile development process
                 ensures quick iterations and continuous improvements.

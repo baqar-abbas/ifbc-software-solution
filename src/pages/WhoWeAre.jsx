@@ -1,9 +1,14 @@
 import React from "react";
+import WhoWeAreHeadline from "../components/WhoWeArePageComponents/Headline/WhoWeAreHeadline";
+import CeoSection from "../components/WhoWeArePageComponents/CeoSection/CeoSection";
+import OurTeam from "../components/WhoWeArePageComponents/OurTeam/OurTeam";
 
 const WhoWeAre = () => {
   return (
     <div>
-      <h1>This is Who we are page</h1>
+      <WhoWeAreHeadline />
+      <CeoSection />
+      <OurTeam />
     </div>
   );
 };
