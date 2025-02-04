@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Company Info */}
         <div className="footer-section">
-          <h3 className="footer-title">IFBC Smart Tech</h3>
+          <h3 className="footer-title">IFBC Info Tech</h3>
           <p>
             Delivering innovative software solutions to empower your business.
           </p>
@@ -75,9 +75,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>
-          © {new Date().getFullYear()} IFBC Smart Tech. All rights reserved.
-        </p>
+        <p>© {new Date().getFullYear()} IFBC Info Tech. All rights reserved.</p>
       </div>
     </footer>
   );
