@@ -1,0 +1,87 @@
+.mission-values-section {
+  background: #ffffff;
+  color: #333;
+  padding: 4rem 2rem;
+}
+
+.mission-values-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Two-column layout */
+@media (min-width: 768px) {
+  .mission-values-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .mission-text,
+  .values-container {
+    width: 48%;
+  }
+}
+
+/* Mission & Core Values Titles */
+.mission-title,
+.values-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1e3a8a; /* Deep Blue */
+}
+
+/* Mission Paragraph */
+.mission-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Core Values Grid */
+.values-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Core Value Cards */
+.value-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Icons */
+.value-icon {
+  font-size: 2rem;
+  color: #2563eb; /* Vibrant Blue */
+  margin-bottom: 0.5rem;
+}
+
+/* Core Value Titles */
+.value-card h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+/* Core Value Descriptions */
+.value-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}

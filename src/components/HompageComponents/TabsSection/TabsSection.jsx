@@ -17,16 +17,16 @@ const TabsSection = () => {
             Overview
           </button>
           <button
-            className={activeTab === "related" ? "tab active" : "tab"}
-            onClick={() => setActiveTab("related")}
+            className={activeTab === "services" ? "tab active" : "tab"}
+            onClick={() => setActiveTab("services")}
           >
-            Related
+            Services
           </button>
           <button
-            className={activeTab === "more-info" ? "tab active" : "tab"}
-            onClick={() => setActiveTab("more-info")}
+            className={activeTab === "approach" ? "tab active" : "tab"}
+            onClick={() => setActiveTab("approach")}
           >
-            More Info
+            Approach
           </button>
         </div>
 
@@ -51,9 +51,9 @@ const TabsSection = () => {
             </div>
           )}
 
-          {activeTab === "related" && (
+          {activeTab === "services" && (
             <div className="content">
-              <h2>Related</h2>
+              <h2>Services</h2>
               <p>
                 Our services extend across multiple domains, including FinTech,
                 Healthcare, E-Commerce, and AI-powered automation. We leverage
@@ -72,9 +72,9 @@ const TabsSection = () => {
             </div>
           )}
 
-          {activeTab === "more-info" && (
+          {activeTab === "approach" && (
             <div className="content">
-              <h2>More Info</h2>
+              <h2>Approach</h2>
               <p>
                 At IFBC Info Tech, we believe in a client-first approach,
                 ensuring that every solution we build is not only innovative but
