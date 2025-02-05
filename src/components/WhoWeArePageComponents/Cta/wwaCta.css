@@ -1,0 +1,57 @@
+.wwa-cta {
+  background-color: #ffffff; /* Clean white background */
+  color: #1e293b; /* Dark text for high contrast */
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.wwa-cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wwa-cta-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0f172a; /* Dark navy for boldness */
+}
+
+.wwa-cta-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #475569; /* Slightly softer dark shade */
+}
+
+.wwa-cta-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: #1e3a8a; /* Deep blue for CTA */
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.wwa-cta-button:hover {
+  background-color: #2563eb; /* Lighter blue on hover */
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .wwa-cta-title {
+    font-size: 2rem;
+  }
+
+  .wwa-cta-text {
+    font-size: 1.1rem;
+  }
+
+  .wwa-cta-button {
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+  }
+}

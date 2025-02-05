@@ -15,7 +15,7 @@ const WhoWeAreHeadline = () => {
         <h1 className="headline-title">Who We Are</h1>
         <p className="headline-subtext">
           Driving innovation and excellence in the tech industry. Meet the team
-          behind IFBC Smart Tech.
+          behind IFBC Info Tech.
         </p>
         <motion.a
           href="#services"
