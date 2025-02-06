@@ -1,0 +1,48 @@
+/* App.css */
+:root {
+  --primary-color: #3b82f6; /* Blue */
+  --secondary-color: #333333; /* Dark Gray */
+  --background-color: #f9f9f9; /* Light Gray */
+  --text-color: #333; /* Dark text color */
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Apply the Poppins font globally */
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main {
+  padding-top: 100px; /* To offset the header's height */
+}
+
+/* Page Content Styles */
+h1,
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color);
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Header Styling */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(135deg, #6c63ff, #3b82f6); /* Smooth gradient */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  z-index: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Desktop Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white; /* White links for better contrast */
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffde59; /* Light yellow hover color */
+}
+
+/* Menu Button (Hamburger Icon) */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 85%; /* Increased width for better spacing */
+  max-width: 400px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  border-left: 5px solid #3b82f6; /* Stylish left border */
+}
+
+/* Open state for Mobile Menu */
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+/* Close button */
+.mobile-menu button {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* Mobile Menu Links */
+.mobile-menu a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.mobile-menu a:hover {
+  color: #3b82f6;
+}
+
+/* Disable Scrolling When Menu is Open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+    margin-right: 35px;
+  }
+}

@@ -1,0 +1,94 @@
+.wwa-why-choose-us {
+  background-color: #0f172a; /* Deep navy for strong contrast */
+  color: #f8fafc; /* Light text for high readability */
+  padding: 5rem 2rem;
+}
+
+.wwa-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.wwa-text-content {
+  flex: 1;
+  max-width: 550px;
+}
+
+.wwa-section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #38bdf8; /* Vibrant blue for a standout title */
+}
+
+.wwa-section-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #e2e8f0; /* Softer white for better readability */
+}
+
+.wwa-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+.wwa-benefit-item {
+  background: #1e293b; /* Darker background for depth */
+  padding: 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.wwa-benefit-item:hover {
+  transform: translateY(-7px);
+  background: #334155; /* Slightly lighter on hover */
+}
+
+.wwa-benefit-icon {
+  font-size: 2.2rem;
+  color: #38bdf8; /* Matching blue for a cohesive theme */
+  margin-bottom: 1rem;
+}
+
+.wwa-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wwa-why-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .wwa-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wwa-text-content {
+    max-width: 100%;
+  }
+
+  .wwa-benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wwa-image-container {
+    margin-top: 2rem;
+  }
+}
