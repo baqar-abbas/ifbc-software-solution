@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ServicesOverview.css";
+import "./servicesOverview.css";
 import { motion } from "framer-motion";
 import { FaCode, FaMobileAlt, FaCloud, FaShieldAlt } from "react-icons/fa";
 
