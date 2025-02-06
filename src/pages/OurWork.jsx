@@ -1,11 +1,24 @@
 import React from "react";
 import OurWorkHeadline from "../components/OurWorkPageComponents/Headline/OurWorkHeadline";
+import UnderConstruction from "../components/OurWorkPageComponents/UnderConstruction/UnderConstruction";
 
 const OurWork = () => {
   return (
     <div>
       <OurWorkHeadline />
-      <h1>This is Our Work page</h1>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <UnderConstruction />
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
+      <h2 className="under-text">Under Construction</h2>
     </div>
   );
 };
