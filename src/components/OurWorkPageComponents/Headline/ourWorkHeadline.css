@@ -1,0 +1,47 @@
+/* Headline Section with Gradient Background */
+.our-work-headline {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: #ffffff;
+  padding: 5rem 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+/* Container for content */
+.our-work-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Headline Title */
+.our-work-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheading */
+.our-work-subtitle {
+  font-size: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #f8fafc;
+  opacity: 0.9;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .our-work-title {
+    font-size: 2.5rem;
+  }
+
+  .our-work-subtitle {
+    font-size: 1.2rem;
+  }
+}
