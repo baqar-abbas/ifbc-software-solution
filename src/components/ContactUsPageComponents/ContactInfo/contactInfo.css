@@ -1,0 +1,72 @@
+/* Contact Info Section with a subtle gradient background */
+.ci-section {
+  background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  padding: 4rem 2rem;
+  color: #1f2937; /* Updated to a darker shade for better contrast */
+  text-align: center;
+}
+
+.ci-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ci-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1e293b; /* Dark blue for emphasis */
+}
+
+.ci-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ci-info-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.ci-icon {
+  font-size: 1.5rem;
+  color: #2563eb; /* Vibrant blue accent */
+}
+
+.ci-info-item p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #1f2937; /* Darker text for better readability on a white background */
+}
+
+.ci-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.ci-socials a {
+  font-size: 1.5rem;
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.ci-socials a:hover {
+  color: #1e40af;
+  transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .ci-title {
+    font-size: 2rem;
+  }
+  .ci-info-item p {
+    font-size: 1rem;
+  }
+}

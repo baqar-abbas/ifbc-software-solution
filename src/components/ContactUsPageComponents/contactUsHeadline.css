@@ -1,0 +1,39 @@
+/* Contact Us Headline Section */
+.cuh-section {
+  background: linear-gradient(
+    135deg,
+    #1e3a8a,
+    #2563eb
+  ); /* Vibrant blue gradient */
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cuh-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cuh-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cuh-subtitle {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .cuh-title {
+    font-size: 2.5rem;
+  }
+  .cuh-subtitle {
+    font-size: 1.2rem;
+  }
+}
