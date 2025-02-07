@@ -7,6 +7,7 @@ import WhoWeAre from "./pages/WhoWeAre";
 import OurWork from "./pages/OurWork";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/who-we-are" element={<WhoWeAre />} />
             <Route path="/our-work" element={<OurWork />} />
+            <Route path="/contact-us" element={<ContactUs />} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Routes>
         </main>

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ShieldCheck, Users, TrendingUp, Award } from "lucide-react";
-import "./WhyChooseUs.css";
+import "./whyChooseUs.css";
 
 const reasons = [
   {

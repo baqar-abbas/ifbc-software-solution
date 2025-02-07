@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: "Baqar Abbas",
     role: "Software Developer",
-    image: "./images/baqar2.PNG",
+    image: "/images/baqar2.PNG",
   },
   {
     name: "Omar Farooq Khan",
