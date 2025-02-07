@@ -24,6 +24,7 @@ const Header = () => {
           <Link to="/services">Services</Link>
           <Link to="/who-we-are">Who We Are</Link>
           <Link to="/our-work">Our Work</Link>
+          <Link to="/contact-us">Contact Us</Link>
         </nav>
       </div>
 
@@ -49,6 +50,9 @@ const Header = () => {
           </Link>
           <Link to="/our-work" onClick={() => setIsOpen(false)}>
             Our Work
+          </Link>
+          <Link to="/contact-us" onClick={() => setIsOpen(false)}>
+            Contact Us
           </Link>
         </motion.div>
       )}
