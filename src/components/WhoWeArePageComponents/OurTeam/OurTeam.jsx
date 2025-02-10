@@ -21,7 +21,8 @@ const teamMembers = [
   {
     name: "M Shayan Shakeel",
     role: "Software Developer",
-    image: "https://randomuser.me/api/portraits/men/50.jpg",
+    // image: "https://randomuser.me/api/portraits/men/50.jpg",
+    image: "/images/shayan.jpg",
   },
   {
     name: "Syed Basit Mehndi",
