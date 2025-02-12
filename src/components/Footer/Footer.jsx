@@ -13,10 +13,13 @@ const Footer = () => {
             Delivering innovative software solutions to empower your business.
           </p>
           <p className="footer-contact">
-            <strong>Email:</strong> info@ifbcsmarttech.com
+            {/* <strong>Email:</strong> info@ifbcsmarttech.com */}
+            <strong>Email:</strong> info@ifbc.co
           </p>
           <p className="footer-contact">
-            <strong>Phone:</strong> +1 (234) 567-890
+            {/* <strong>Phone:</strong> +1 (234) 567-890 */}
+            <strong>Phone: </strong>
+            323-GET-WORK 323-438-9675
           </p>
         </div>
 
