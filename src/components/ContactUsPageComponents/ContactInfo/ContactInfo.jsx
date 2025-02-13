@@ -36,7 +36,7 @@ const ContactInfo = () => {
           </div>
           <div className="ci-info-item">
             <FaPhoneAlt className="ci-icon" />
-            <p>323-GET-WORK 323-438-9675</p>
+            <p>323-GET-WORK (323-438-9675)</p>
           </div>
           <div className="ci-info-item">
             <FaEnvelope className="ci-icon" />

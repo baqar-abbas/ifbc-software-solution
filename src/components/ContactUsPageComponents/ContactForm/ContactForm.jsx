@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 import "./contactForm.css";
 
 const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_4egetd4",
+        "template_7785occ",
+        form.current,
+        "ARNBPThqfQDsrc9j9"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message Sent! We'll get back to you shortly.");
+          e.target.reset();
+        },
+        (error) => {
+          console.error(error.text);
+          alert("An error occurred, please try again.");
+        }
+      );
+  };
+
   return (
     <section className="cuf-section">
       <div className="cuf-container">
@@ -26,6 +52,8 @@ const ContactForm = () => {
           we'll get in touch shortly.
         </motion.p>
         <motion.form
+          ref={form}
+          onSubmit={sendEmail}
           className="cuf-form"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -36,12 +64,14 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder="Your Name"
+              name="user_name"
               className="cuf-input"
               required
             />
             <input
               type="email"
               placeholder="Your Email"
+              name="user_email"
               className="cuf-input"
               required
             />
@@ -49,11 +79,13 @@ const ContactForm = () => {
           <input
             type="text"
             placeholder="Subject"
+            name="subject"
             className="cuf-input"
             required
           />
           <textarea
             placeholder="Your Message"
+            name="message"
             className="cuf-textarea"
             required
           ></textarea>
