@@ -32,15 +32,16 @@ const ContactInfo = () => {
         >
           <div className="ci-info-item">
             <FaMapMarkerAlt className="ci-icon" />
-            <p>123 Main Street, City, Country</p>
+            <p>9350 Wilshire Blvd, Suite 203, Beverly Hills, CA 90212</p>
           </div>
           <div className="ci-info-item">
             <FaPhoneAlt className="ci-icon" />
-            <p>+1 (234) 567-890</p>
+            <p>323-GET-WORK (323-438-9675)</p>
           </div>
           <div className="ci-info-item">
             <FaEnvelope className="ci-icon" />
-            <p>info@ifbcinfotech.com</p>
+            {/* <p>info@ifbcinfotech.com</p> */}
+            <p>info@ifbc.co</p>
           </div>
         </motion.div>
         <motion.div
