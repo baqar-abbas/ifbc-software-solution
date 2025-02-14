@@ -8,6 +8,7 @@ import OurWork from "./pages/OurWork";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ContactUs from "./pages/ContactUs";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <ToastContainer position="top-center" autoClose={5000} />
       </div>
     </>
   );

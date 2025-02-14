@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./contactForm.css";
 
 const ContactForm = () => {
@@ -19,12 +21,12 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message Sent! We'll get back to you shortly.");
+          toast.success("Message Sent! We'll get back to you shortly.");
           e.target.reset();
         },
         (error) => {
           console.error(error.text);
-          alert("An error occurred, please try again.");
+          toast.error("An error occurred, please try again.");
         }
       );
   };

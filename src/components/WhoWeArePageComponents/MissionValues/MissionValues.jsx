@@ -23,7 +23,7 @@ const MissionValues = () => {
         >
           <h2 className="mission-title">Our Mission</h2>
           <p className="mission-description">
-            At IFBC Info Tech, our mission is to revolutionize the software
+            At IFBC Infotech, our mission is to revolutionize the software
             industry by providing cutting-edge, client-focused solutions that
             drive innovation and success. We are committed to building a future
             where technology empowers businesses to achieve more.
