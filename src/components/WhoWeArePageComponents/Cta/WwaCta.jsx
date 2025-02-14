@@ -14,7 +14,7 @@ const WwaCta = () => {
       >
         <h2 className="wwa-cta-title">Let's Build Something Great Together</h2>
         <p className="wwa-cta-text">
-          Partner with <strong>IFBC Info Tech</strong> to transform your ideas
+          Partner with <strong>IFBC Infotech</strong> to transform your ideas
           into cutting-edge digital solutions. Whether it's a new website,
           mobile app, or an enterprise solution, we've got you covered.
         </p>

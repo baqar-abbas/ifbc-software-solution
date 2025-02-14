@@ -15,7 +15,7 @@ const OurWorkHeadline = () => {
           Transforming Ideas into Reality – Our Work Speaks for Itself!
         </h1>
         <p className="our-work-subtitle">
-          At IFBC Info Tech, we create cutting-edge digital solutions that drive
+          At IFBC Infotech, we create cutting-edge digital solutions that drive
           business success. Explore our portfolio and see how we bring visions
           to life!
         </p>

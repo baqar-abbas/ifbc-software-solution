@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="wwa-section-title">Why Choose IFBC Info Tech?</h2>
+          <h2 className="wwa-section-title">Why Choose IFBC Infotech?</h2>
           <p className="wwa-section-description">
             We are more than just a tech company; we are your strategic partners
             in growth. Our expertise, innovation, and commitment set us apart.

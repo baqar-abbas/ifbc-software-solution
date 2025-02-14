@@ -10,7 +10,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "CEO, Tech Innovations",
     feedback:
-      "IFBC Smart Tech provided us with an outstanding software solution that streamlined our operations. Highly recommend!",
+      "IFBC Infotech provided us with an outstanding software solution that streamlined our operations. Highly recommend!",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {

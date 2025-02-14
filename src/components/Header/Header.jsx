@@ -11,7 +11,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         {/* Logo */}
-        <h1 className="logo">IFBC Info Tech</h1>
+        <h1 className="logo">IFBC Infotech</h1>
 
         {/* Mobile Menu Button */}
         <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
