@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Company Info */}
         <div className="footer-section">
-          <h3 className="footer-title">IFBC Info Tech</h3>
+          <h3 className="footer-title">IFBC Infotech</h3>
           <p>
             Delivering innovative software solutions to empower your business.
           </p>
